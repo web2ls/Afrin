@@ -1,0 +1,37 @@
+* {
+	outline: none;
+}
+
+.errorMessage {
+	display: none !important;
+}
+
+input.error, textarea.error, .error input, .error textarea {
+	border: 1px solid #f00 !important;
+	background: #fdd !important;
+}
+
+.steps-number {
+	line-height: 62px;
+}
+
+.navi li a {
+	color: #1b698c;
+	font-weight: bold;
+}
+
+.warning {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 5vh;
+    line-height: 5vh;
+}
+
+.warning2 {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 5vh;
+  line-height: 5vh;
+}

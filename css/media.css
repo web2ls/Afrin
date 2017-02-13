@@ -1,0 +1,574 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (min-width : 1280px) {
+	.warning2 {
+		line-height: normal !important;
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) and (orientation: portrait) {
+	html, body {
+		width: 100%;
+		min-height: 100%;
+	}
+
+	body {
+		background-image: url(../img/background2.jpg);
+	    background-repeat: no-repeat;
+	    background-position: top center;
+	    background-size: cover;
+		/*background: url(../img/background2.jpg) center center no-repeat fixed;
+		background-size: cover;*/
+	}
+
+	.container {
+	  width: 100%;
+	  height: 100%;
+	  margin: 0;
+	}
+
+	header {
+		padding: 1vh 0;
+		height: 8vh;
+	}
+
+	.navi {
+		margin: 0;
+	}
+
+	.navi li {
+		font-size: 1.8vw;
+	}
+
+	.logo {
+		float: none;
+		position: absolute;
+		right: 3vw;
+		width: 8.3vw;
+	}
+
+	.about__footer {
+		height: 15vh;
+	}
+
+	.about__header {
+		padding: 1vh 0;
+		height: 8vh;
+	}
+
+	.main-title {
+		width: 80vw;
+	}
+
+	.devis {
+		font-size: 9vw;
+	}
+
+	.devis span {
+		font-size: 10vw;
+	}
+
+	.devis-descr {
+		font-size: 3vw;
+	}
+
+	.main-title img {
+		max-width: 100%;
+	}
+
+	.about__content p {
+		padding-top: 5vh;
+		font-size: 2vw;
+    	line-height: 3.0vw;
+	}
+
+	.register-check {
+		top: 50vh;
+		right: auto;
+		left: 50%;
+		padding: 1vh 3vw;
+		transform: translateX(-50%);
+	  width: 95vw;
+		height: 12vh;
+	  font-size: 8vw;
+	}
+
+	.rules-btn {
+		position: absolute;
+		left: 50%;
+		bottom: 5vh;
+		transform: translateX(-50%);
+		padding: 1.5vh 2vw;
+		font-size: 4vw;
+	}
+
+	.about__title {
+		/*width: 100%;*/
+		top: -7vh;
+		text-align: center;
+		font-size: 4.5vw;
+	}
+
+	.about__title span {
+		font-size: 5.7vw;
+	}
+
+	.about__title img {
+		top: 0;
+		height: 15vh;
+	}
+
+	.about__footer {
+		height: 10vh;
+	}
+
+	.about__social {
+		margin-top: 2vh;
+	}
+
+	.rules-agree {
+		margin-top: 3vh;
+		font-size: 2.5vw;
+		line-height: 1.5vh;
+	}
+
+	.rules-agree span {
+		position: relative;
+		top: -0.5vh;
+	}
+
+	.feedback {
+		width: 70%;
+	}
+
+	.feedback input[type=text] {
+		height: 5vh;
+		font-size: 4vw;
+		padding: 0 1.5vw;
+	}
+
+	.feedback button, .feedback input[type=submit] {
+		border: 1px solid #263f84;
+		font-size: 5vw;
+   		 line-height: 8.2vw;
+	}
+
+	.feedback textarea {
+		font-size: 3vw;
+		height: 25vh;
+  	  	padding: 1.5vh 1.5vw;
+	}
+
+	.container-prizes {
+		width: 100%;
+	}
+
+	.steps-number {
+    width: 8vw;
+	  height: 7.6vw;
+	  font-size: 7vw;
+		line-height: 4.5vh !important;
+	}
+
+	.step1, .step2, .step3 {
+		margin-bottom: 3vh;
+		/*margin-bottom: 3vh;*/
+	}
+
+	.step1 img, .step2 img, .step3 img {
+		 max-width: 25%;
+   		 height: 6vh;
+	}
+
+	.step-descr {
+		width: 75%;
+		margin: 1vh 0;
+		font-size: 2.5vw;
+		line-height: 1.5vh;
+	}
+
+	.step3 img {
+		margin-left: 0.5vw;
+	}
+
+	.last {
+		margin-left: 0;
+	}
+
+	.user-input {
+		margin-top: 1vh;
+	}
+
+	.user-input input {
+		height: 3vh;
+		/*height: 4vh;*/
+		font-size: 1.5vw;
+		margin-top: 1vh;
+		/*margin-bottom: 3vh;*/
+	}
+
+	.user-input input[type=text] {
+		height: 5vw;
+		margin-bottom: 2vh;
+	}
+
+	#ItemForm_num {
+		margin-bottom: 1vh;
+	}
+
+	.load-check-photo,
+	.load-box-photo {
+		width: 100%;
+		margin-bottom: 0.5vh;
+		border: 1px solid #263f84;
+	}
+
+ .send-user-data {
+		width: 100%;
+		margin-top: 3vh;
+		padding: 0.3vh 13vw;
+		border: 1px solid #263f84;;
+	}
+
+	.mobile-hidden {
+		display: none;
+	}
+
+	.prizes-list {
+		margin-top: 5vh;
+		margin-bottom: 10vh;
+	}
+
+	.prizes-pic {
+		width: 100%;
+	}
+
+	.prizes-pic img {
+		height: 20vh;
+	}
+
+	.prizes-list span {
+		text-align: center;
+		margin-top: 10%;
+		vertical-align: top;
+		font-size: 2.4vw;
+		line-height: 2vh;
+	}
+
+	.prize {
+		width: 33%;
+	}
+
+	.prize span {
+		max-width: 95%;
+	}
+
+	.left-divider, .right-divider {
+		top: 0;
+		width: 30%;
+	}
+
+	.load-check-photo, .load-box-photo, .send-user-data {
+		font-size: 2vw;
+    	line-height: 4.2vw;
+	}
+
+	footer {
+		height: 10vh;
+	}
+
+	.warning {
+		position: absolute;
+		left: 0;
+		bottom: 1vh;
+		width: 100%;
+		margin: 0;
+		text-align: center !important;
+		font-size: 4.5vw !important;
+		line-height: 1vh;
+	}
+
+	.warning2 {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		margin: 0;
+		text-align: center !important;
+		font-size: 4.5vw !important;
+		line-height: 1vh;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) and (orientation: portrait) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) and (orientation: portrait) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) and (orientation: portrait) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) and (orientation: portrait) {
+
+}
+
+
+/*/////////////////////////////////////////////////LANDING ADAPTIVE\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+@media only screen and (max-width : 1200px) and (orientation: landscape) {
+	.container {
+	  width: 100%;
+	  min-height: 100%;
+	  margin: 0;
+	}
+
+	header {
+		padding: 3vh 0;
+		height: 12vh;
+	}
+
+	.navi {
+		margin: 0;
+	}
+
+	.navi li {
+		padding: 2vh 1vw;
+		font-size: 2vw;
+		line-height: 3vh;
+	}
+
+	.logo {
+		float: none;
+		position: absolute;
+		right: 1vw;
+		width: 3vw;
+	}
+
+	footer {
+		height: 13vh;
+	}
+
+	.afrin-box {
+		bottom: -7vh;
+	}
+
+	.devis {
+		font-size: 4vw;
+	}
+
+	.devis span {
+		font-size: 4vw;
+		line-height: 8vh;
+	}
+
+	.devis-descr {
+		font-size: 2.2vw;
+		line-height: 4.5vh;
+	}
+
+	.register-check {
+		top: 40vh;
+		right: 1vw;
+    width: 50vw;
+		height: 10vh;
+    padding: 4vh 0;
+    font-size: 4vw;
+    line-height: 0;
+	}
+
+	.rules-btn {
+		position: absolute;
+		left: 1vw;
+		top: -2vh;
+		padding: 1.5vh 3vw;
+		font-size: 2vw;
+	}
+
+	.about__header {
+		padding: 3vh 0;
+		height: 12vh;
+	}
+
+	.about__content p {
+	    font-size: 1.5vw;
+	    line-height: 1.8vw;
+	  }
+
+	.about__title {
+		width: 10vw;
+		bottom: 1vh;
+		/*top: -6.9vh;*/
+		left: auto;
+		transform: none;
+		right: 1vw;
+		font-size: 2vw;
+		text-align: right;
+	}
+
+	.about__title span {
+		font-size: 2.2vw;
+	}
+
+	.rules-agree {
+		font-size: 1.6vw;
+		line-height: 3vh;
+	}
+
+	.rules-agree span {
+		position: relative;
+		top: -1vh;
+	}
+
+	.feedback input[type=text] {
+		height: 5.2vh;
+		font-size: 1.5vw;
+		padding: 0 1vw;
+	}
+
+	.feedback textarea {
+		height: 25vh;
+		font-size: 1.5vw;
+		padding: 0 1vw;
+	}
+
+	.feedback button, .feedback input[type=submit] {
+		border: 1px solid #263f84;
+		font-size: 3vw;
+   		 line-height: 3.2vw;
+	}
+
+	.feedback__content ~ .warning2 {
+	 line-height: 1;
+ }
+
+	.container-prizes {
+		width: 100%;
+	}
+
+	.steps-number {
+	   width: 5vw;
+	   height: 4.6vw;
+	   font-size: 4vw;
+		 line-height: 5vw !important;
+	}
+
+	.step1,
+	.step2,
+	.step3 {
+		margin-bottom: 3vh;
+	}
+
+	.step1 img, .step2 img, .step3 img {
+		height: 10vh;
+	}
+
+	.step-descr {
+		width: 60%;
+		margin: 1vh 0;
+		font-size: 2vw;
+		line-height: 3vh;
+	}
+
+	.step3 img {
+		margin-left: 0.5vw;
+	}
+
+	.last {
+		margin-left: 1vw;
+	}
+
+	.user-input input[type=text] {
+		height: 5vh;
+		margin-bottom: 3vh;
+		font-size: 1.5vw;
+	}
+
+	.load-check-photo,
+	.load-box-photo,
+	.send-user-data {
+		border: 1px solid #263f84;
+		font-size: 1.5vw;
+    	line-height: 1.7vw;
+	}
+
+	.mobile-hidden {
+		display: none;
+	}
+
+	.prizes-list {
+		margin-top: 0;
+		margin-bottom: 15vh;
+	}
+
+	.prizes-pic img {
+		height: 30vh;
+	}
+
+	.prizes-list span {
+		vertical-align: top;
+		font-size: 1.5vw;
+	}
+
+	.left-divider, .right-divider {
+		width: 40%;
+	}
+
+	.prize {
+		width: 33%;
+	}
+
+	.prize span {
+		max-width: 95%;
+		margin-top: 5%;
+		line-height: 2vw;
+	}
+
+	.about__footer {
+		height: 13vh;
+	}
+
+	.warning {
+		position: absolute;
+	    left: 0;
+	    bottom: 0;
+	    width: 100%;
+	    text-align: center !important;
+	    letter-spacing: 3px;
+	}
+
+	.warning2 {
+		font-size: 6vh !important;
+	}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) and (orientation: landscape) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) and (orientation: landscape) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) and (orientation: landscape) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) and (orientation: landscape) {
+
+}

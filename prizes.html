@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Призы</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/core.css">
+		<link rel="stylesheet" href="css/small_core.css">
+		<link rel="stylesheet" href="css/media.css">
+		<link rel="stylesheet" href="css/ext.css">
+
+	</head>
+	<body>
+		<header class="about__header">
+			<div class="container">
+				<nav>
+					<ul class="navi about__header_navi">
+						<a href="index.html"><li>Главная страница</li></a>
+						<a href="about.html"><li>О продукте</li></a>
+						<a href="prizes.html"><li class="active">Призы</li></a>
+						<a href="feedback.html"><li>Обратная связь</li></a>
+						<a href="faq.html"><li>FAQ</li></a>
+						<a href="winners.html"><li>Победители</li></a>
+					</ul>
+				</nav>
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+			</div>
+		</header>
+
+		<div class="clearfix"></div>
+
+		<section class="prizes__content">
+			<div class="container-prizes">
+				<div class="user-action">
+					<div class="steps-to-win">
+						<div class="step1">
+							<div class="steps-number"><span>1</span></div>
+							<img class="mobile-hidden" src="img/bucket.png">
+							<p class="step-descr"><strong>Купите</strong> 2 упаковки Африн и.или Африн Чистое Море</p>
+						</div>
+						<div class="step2">
+							<div class="steps-number"><span>2</span></div>
+							<img class="mobile-hidden" src="img/computer.png">
+							<p class="step-descr"><strong>Загрузите фото</strong> продукта и чек на сайт www.afrin.promo.ru</p>
+						</div>
+						<div class="step3">
+							<div class="steps-number"><span>3</span></div>
+							<img class="mobile-hidden" src="img/surprize-box.png">
+							<p class="step-descr last"><strong>Выиграйте</strong> поездку на курорт Мертвого моря и другие ценные призы<sup>*</sup>!</p>
+						</div>
+					</div>
+					<div class="user-input">
+						<form class="" enctype="multipart/form-data" id="item-form" action="/prizes" method="post">					<div>
+						<input placeholder="ФИО" name="ItemForm[name]" id="ItemForm_name" type="text" />						<div class="errorMessage" id="ItemForm_name_em_" style="display:none"></div>					</div>
+					<div>
+						<input placeholder="E-mail" name="ItemForm[email]" id="ItemForm_email" type="text" />						<div class="errorMessage" id="ItemForm_email_em_" style="display:none"></div>					</div>
+					<div>
+						<input placeholder="Телефон" name="ItemForm[phone]" id="ItemForm_phone" type="text" />						<div class="errorMessage" id="ItemForm_phone_em_" style="display:none"></div>					</div>
+					<div>
+						<input placeholder="Номер чека" name="ItemForm[num]" id="ItemForm_num" type="text" />						<div class="errorMessage" id="ItemForm_num_em_" style="display:none"></div>					</div>
+					<button class="load-check-photo load-img1" type="button">Загрузить фото чека</button>
+					<button class="load-box-photo load-img2" type="button">Загрузить фото упаковки</button>
+					<div class="clearfix"></div>
+					<!--<button class="send-user-data" type="submit">Отправить данные</button>-->
+					<input class="send-user-data" type="submit" name="yt0" value="Отправить данные" />
+				<div style="display:none">
+					<input id="ytItemForm_img1" type="hidden" value="" name="ItemForm[img1]" /><input class="" accept="image/*" name="ItemForm[img1]" id="ItemForm_img1" type="file" />					<input id="ytItemForm_img2" type="hidden" value="" name="ItemForm[img2]" /><input class="" accept="image/*" name="ItemForm[img2]" id="ItemForm_img2" type="file" />				</div>
+				</form>
+
+
+
+						<!-- <form method="POST" action="#">
+							<input type="text" placeholder="ФИО">
+							<input type="email" placeholder="E-mail">
+							<input type="number" placeholder="Телефон">
+							<input type="text" placeholder="Номер чека">
+							<button class="load-check-photo" type="button">Загрузить фото чека</button>
+							<button class="load-box-photo" type="button">Загрузить фото упаковки</button>
+							<div class="clearfix"></div>
+							<button class="send-user-data" type="submit">Отправить данные</button>
+						</form> -->
+						<!-- <div class="rules-agree">
+							<input type="checkbox"> Подачей заявки на участие в <strong>Акции</strong> я <strong>подтверждает, что</strong> ознакомлен и принимаю все условия Акции закрепленные в правилах, а так же подтвердаю, что я не являюсь фармацевтом.
+						</div> -->
+					</div>
+				</div>
+
+				<div class="rules-agree">
+					<input type="checkbox"> <span>Подачей заявки на участие в <strong>Акции</strong> я <strong>подтверждает, что</strong> ознакомлен и принимаю все условия Акции закрепленные в правилах, а так же подтвердаю, что я не являюсь фармацевтом.</span>
+				</div>
+
+				<div class="clearfix"></div>
+
+				<div class="prizes-list">
+					<div class="left-divider"></div>
+					<span class="prize-header">призы</span>
+					<div class="right-divider"></div>
+
+					<div class="prizes-pic">
+						<div class="prize">
+							<img src="img/prize-journey.png" title="Поездка  включает в себя: перелет туда/обратно в г. Москва (если победитель не из Москвы), перелет туда/обратно  г. Тель-Авив, страховка на 2х человек, трансфер до курорта, проживание в 4х звездочном отеле на 7 дней и 3х-разовое питание">
+							<span>Каждый  месяц – поездка на 2х на мертвое  море</span>
+						</div>
+						<div class="prize">
+							<img src="img/prize-bag.png">
+							<span>Каждую неделю -  чемодан для  ручной клади</span>
+						</div>
+						<div class="prize">
+							<img src="img/prize-device.png">
+							<span>Каждый  день – Увлажнитель воздуха</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="about-page-footer">
+			<div class="container">
+				<a href="rules.pdf"><div class="rules-btn">Правила акции</div></a>
+				<div class="about__title">
+					<img src="img/afrin-box.png">
+					<!-- Отдохните на море вместе с <span>АФРИН!</span>
+					<img src="img/about-title2.png">
+					 <img src="img/about-title.png"> -->
+				</div>
+				<!-- <ul class="about__social">
+					<li class="twitter"><a href="#"><img src="img/twitter.png"></a></li>
+					<li class="vk"><a href="#"><img src="img/vk.png"></a></li>
+					<li class="fb"><a href="#"><img src="img/fb.png"></a></li>
+					<li class="instagram"><a href="#"><img src="img/instagram.png"></a></li>
+				</ul> -->
+				<!-- <div class="warning">
+					Имеются противопоказания. Ознакомьтесь с инструкцией
+				</div> -->
+			</div>
+			<div class="warning2">
+				Имеются противопоказания. Ознакомьтесь с инструкцией
+			</div>
+		</footer>
+		<!-- <div class="warning2">
+			Имеются противопоказания. Ознакомьтесь с инструкцией
+		</div> -->
+
+
+		<script src="js/core.js"></script>
+
+	</body>
+</html>
